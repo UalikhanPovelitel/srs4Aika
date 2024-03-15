@@ -19,21 +19,24 @@ class CodegenLoader extends AssetLoader{
   "name_label": "Name",
   "email_label": "Email",
   "password_label": "Password",
-  "register_button_label": "Register"
+  "register_button_label": "Register",
+  "confirm_password_label": "Confirm Password"
 };
 static const Map<String,dynamic> kk = {
   "registration_page_title": "Тіркелу",
   "name_label": "Аты",
   "email_label": "Электрондық пошта",
   "password_label": "Құпия сөз",
-  "register_button_label": "Тіркелу"
+  "register_button_label": "Тіркелу",
+  "confirm_password_label": "Құпия сөзді растау"
 };
 static const Map<String,dynamic> ru = {
   "registration_page_title": "Регистрация",
   "name_label": "Имя",
   "email_label": "Email",
   "password_label": "Пароль",
-  "register_button_label": "Зарегистрироваться"
+  "register_button_label": "Зарегистрироваться",
+  "confirm_password_label": "Подтвердите пароль"
 };
 static const Map<String, Map<String,dynamic>> mapLocales = {"en": en, "kk": kk, "ru": ru};
 }

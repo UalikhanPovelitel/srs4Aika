@@ -56,7 +56,8 @@ class FirstPage extends StatelessWidget {
               },
               style: ElevatedButton.styleFrom(
                 fixedSize: Size(220, 80),
-                side: BorderSide(color: Colors.red, width: 3),
+                side: BorderSide(
+                    color: const Color.fromARGB(255, 0, 0, 0), width: 3),
               ),
               child: Row(
                 children: [
@@ -67,7 +68,8 @@ class FirstPage extends StatelessWidget {
                   const Text(
                     'Русский',
                     style: TextStyle(
-                      color: Colors.red, // Устанавливаем красный цвет текста
+                      color: Color.fromARGB(
+                          255, 0, 0, 0), // Устанавливаем красный цвет текста
                       fontSize: 20, // Устанавливаем размер шрифта 20 пунктов
                     ),
                   ),
@@ -85,7 +87,8 @@ class FirstPage extends StatelessWidget {
               },
               style: ElevatedButton.styleFrom(
                 fixedSize: Size(220, 80),
-                side: BorderSide(color: Colors.blue, width: 3),
+                side: BorderSide(
+                    color: const Color.fromARGB(255, 0, 0, 0), width: 3),
               ),
               child: Row(
                 children: [
@@ -96,7 +99,8 @@ class FirstPage extends StatelessWidget {
                   const Text(
                     'Қазақша',
                     style: TextStyle(
-                      color: Colors.blue, // Устанавливаем красный цвет текста
+                      color: Color.fromARGB(
+                          255, 0, 0, 0), // Устанавливаем красный цвет текста
                       fontSize: 20, // Устанавливаем размер шрифта 20 пунктов
                     ),
                   ),
@@ -114,7 +118,8 @@ class FirstPage extends StatelessWidget {
               },
               style: ElevatedButton.styleFrom(
                 fixedSize: Size(220, 80),
-                side: BorderSide(color: Colors.black45, width: 3),
+                side: BorderSide(
+                    color: const Color.fromARGB(115, 0, 0, 0), width: 3),
               ),
               child: Row(
                 children: [

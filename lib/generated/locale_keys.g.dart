@@ -6,5 +6,6 @@ abstract class  LocaleKeys {
   static const email_label = 'email_label';
   static const password_label = 'password_label';
   static const register_button_label = 'register_button_label';
+  static const confirm_password_label = 'confirm_password_label';
 
 }

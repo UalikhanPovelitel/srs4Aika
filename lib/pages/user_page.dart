@@ -19,13 +19,13 @@ class UserPage extends StatelessWidget {
           'Информация о пользователе',
           style: TextStyle(color: Colors.white70),
         ),
-        backgroundColor: Colors.blueGrey,
+        backgroundColor: const Color.fromARGB(255, 0, 0, 0),
       ),
       body: Container(
         width: 1000,
         height: 1000,
         decoration: BoxDecoration(
-          color: const Color.fromARGB(255, 0, 0, 0), // Цвет фона
+          color: Color.fromARGB(255, 255, 255, 255), // Цвет фона
           borderRadius: BorderRadius.circular(0.0), // Скругление углов
         ),
         padding: EdgeInsets.all(20.0),
@@ -36,7 +36,7 @@ class UserPage extends StatelessWidget {
               'Name: $name',
               style: const TextStyle(
                 fontSize: 20,
-                color: Color.fromARGB(255, 255, 246, 246),
+                color: Color.fromARGB(255, 80, 80, 80),
                 shadows: <Shadow>[
                   Shadow(
                     offset: Offset(3.0, 3.0),
@@ -51,7 +51,7 @@ class UserPage extends StatelessWidget {
               'Email: $email',
               style: const TextStyle(
                 fontSize: 20,
-                color: Color.fromARGB(255, 255, 240, 240),
+                color: Color.fromARGB(255, 61, 61, 61),
                 shadows: <Shadow>[
                   Shadow(
                     offset: Offset(3.0, 3.0),
@@ -66,7 +66,7 @@ class UserPage extends StatelessWidget {
               'Password: $password',
               style: const TextStyle(
                 fontSize: 20,
-                color: Color.fromARGB(255, 255, 239, 239),
+                color: Color.fromARGB(255, 54, 49, 49),
                 shadows: <Shadow>[
                   Shadow(
                     offset: Offset(3.0, 3.0),

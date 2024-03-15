@@ -21,7 +21,7 @@ class _SecondPageState extends State<SecondPage> {
       appBar: AppBar(
         title: Text(LocaleKeys.registration_page_title.tr()),
       ),
-      backgroundColor: Colors.blueGrey,
+      backgroundColor: Colors.white,
       body: Center(
         child: Container(
           width: 800,
@@ -61,7 +61,7 @@ class _SecondPageState extends State<SecondPage> {
                   controller: confirmPasswordController,
                   obscureText: true,
                   decoration: InputDecoration(
-                    labelText: ("Подтвердите пароль"),
+                    labelText: LocaleKeys.confirm_password_label.tr(),
                   ),
                 ),
                 SizedBox(height: 20),
@@ -108,13 +108,15 @@ class _SecondPageState extends State<SecondPage> {
                     }
                   },
                   style: ElevatedButton.styleFrom(
-                    primary: Colors.blueGrey,
-                    onPrimary: Colors.white,
+                    primary: Colors.black, // Черный цвет кнопки
                     minimumSize: Size(double.infinity, 60),
                   ),
                   child: Text(
                     LocaleKeys.register_button_label.tr(),
-                    style: TextStyle(fontSize: 18),
+                    style: TextStyle(
+                      fontSize: 18,
+                      color: Colors.white, // Белый цвет текста
+                    ),
                   ),
                 ),
               ],
